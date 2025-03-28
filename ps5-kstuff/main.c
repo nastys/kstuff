@@ -805,6 +805,7 @@ static struct shellcore_patch shellcore_patches_650[] = {
     {0x5d4367, "\xEB", 1}, //PS4 PKG Installer Patch 4
     {0x5d447c, "\xEB", 1}, //PS5 PKG Installer Patch 4
     {0x5d72e0, "\x48\x31\xC0\xC3", 4}, //PKG Installer
+    {0x1413110, "\xB8\x01\x00\x00\x00\xC3", 6}, //VR2 firmware un-bypass
 };
 
 extern char _start[];
